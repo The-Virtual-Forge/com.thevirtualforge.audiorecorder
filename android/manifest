@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: AudioRecorder
+author: Terry Morgan
+license: Private
+copyright: Copyright (c) 2015 by The Virtual Forge
+
+# these should not be edited
+name: AudioRecorder
+moduleid: com.thevirtualforge.audiorecorder
+guid: a8557bc3-c821-4044-ab47-2bad87e3bf8e
+platform: android
+minsdk: 3.5.1.GA

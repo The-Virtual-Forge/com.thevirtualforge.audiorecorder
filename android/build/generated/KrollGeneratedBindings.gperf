@@ -1,0 +1,16 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name AudioRecorderBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.thevirtualforge.audiorecorder.AudioRecorderModule.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.thevirtualforge.audiorecorder.AudioRecorderModule, ::com::thevirtualforge::audiorecorder::AudioRecorderModule::bindProxy, ::com::thevirtualforge::audiorecorder::AudioRecorderModule::dispose
+%%
